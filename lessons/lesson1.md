@@ -39,7 +39,7 @@ packages:
     actions:
       generic:
         function: actions/generic/index.js
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
 ```
 
 In order to test the action, you could execute `aio app deploy` in the VSCode terminal. Once the deployment is finished, run `aio rt action invoke your-app-name/generic`, and then verify its result and logs using `aio rt activation get ID` and `aio rt activation logs ID` (`ID` is available in the output of the invoke command earlier). Below is an extract of result from the activation info.

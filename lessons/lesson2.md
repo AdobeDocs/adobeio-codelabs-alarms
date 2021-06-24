@@ -11,7 +11,7 @@ packages:
     actions:
       generic:
         function: actions/generic/index.js
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
         inputs:
           LOG_LEVEL: debug
         annotations:
